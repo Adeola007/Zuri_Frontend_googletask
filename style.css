@@ -1,0 +1,98 @@
+body,
+p {
+  margin: 0;
+  text-align: center;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  margin-left: auto;
+  padding: 2em;
+}
+
+a {
+  color: rgb(5, 5, 5);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: block;
+  width: 50%;
+  margin: 6.9% auto;
+  justify-content: center;
+}
+
+input {
+  width: 70%;
+  padding: 1em;
+  border-radius: 60px;
+  border: 1px solid gray;
+}
+
+.btns {
+  margin-top: 0;
+}
+
+.btns,
+button {
+  padding: 1em;
+  border: 1em;
+}
+
+.btns,
+button:hover {
+  color: brown;
+  cursor: pointer;
+}
+
+.languages ul {
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+
+.languages li {
+  display: inline;
+}
+
+.languages li a {
+  color: rgb(105, 105, 201);
+}
+
+footer {
+  background-color: rgb(238, 230, 230);
+  margin-top: 14.5%;
+  padding-bottom: 0%;
+}
+
+.footer_top {
+  padding: 1em;
+}
+
+.footer_top,
+p {
+  text-align: left;
+}
+
+.footer_bottom {
+  padding: 1em;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid gray;
+}
+
+.left,
+a {
+  margin-right: 1em;
+}
+
+.right,
+a {
+  margin-right: 1em;
+}
